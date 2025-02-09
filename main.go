@@ -22,7 +22,7 @@ func main() {
 		key := fmt.Sprintf("dt%d", i)
 		err := rdb.HSet(ctx, "type", key, "PressureMeter").Err()
 		if err != nil {
-			fmt.Printf("Error setting %s: %v\n", key, err)
+			fmt.Printf("Error 123 %s: %v\n", key, err)
 			return
 		}
 	}
