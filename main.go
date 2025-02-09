@@ -16,16 +16,21 @@ func main() {
 
 	// 使用上下文
 	ctx := context.Background()
-
-	// 循环存入 dt1 到 dt100
-	for i := 7; i <= 100; i++ {
-		key := fmt.Sprintf("dt%d", i)
-		err := rdb.HSet(ctx, "type", key, "PressureMeter").Err()
-		if err != nil {
-			fmt.Printf("Error 123 %s: %v\n", key, err)
-			return
-		}
+	defer rdb.Close()
+	if err := rdb.HSet(ctx, "type", "dt7", "PressureMeter").Err(); err != nil {
+		fmt.Printf("Error setting dt7: %v\n", err)
+		return
 	}
+
+	//// 循环存入 dt1 到 dt100
+	//for i := 7; i <= 100; i++ {
+	//	key := fmt.Sprintf("dt%d", i)
+	//	err := rdb.HSet(ctx, "type", key, "PressureMeter").Err()
+	//	if err != nil {
+	//		fmt.Printf("Error setting %s: %v\n", key, err)
+	//		return
+	//	}
+	//}
 
 	fmt.Println("Data inserted successfully")
 }
