@@ -1,0 +1,43 @@
+--2024-12-18 14:49:41--  https://golang.org/dl/go1.20.5.linux-amd64.tar.gz
+正在解析主机 golang.org (golang.org)... 142.250.196.209
+正在连接 golang.org (golang.org)|142.250.196.209|:443... 失败：连接超时。
+重试中。
+
+--2024-12-18 14:51:57--  (尝试次数： 2)  https://golang.org/dl/go1.20.5.linux-amd64.tar.gz
+正在连接 golang.org (golang.org)|142.250.196.209|:443... 失败：连接超时。
+重试中。
+
+--2024-12-18 14:54:13--  (尝试次数： 3)  https://golang.org/dl/go1.20.5.linux-amd64.tar.gz
+正在连接 golang.org (golang.org)|142.250.196.209|:443... 失败：连接超时。
+重试中。
+
+--2024-12-18 14:56:29--  (尝试次数： 4)  https://golang.org/dl/go1.20.5.linux-amd64.tar.gz
+正在连接 golang.org (golang.org)|142.250.196.209|:443... 失败：连接超时。
+重试中。
+
+--2024-12-18 14:58:50--  (尝试次数： 5)  https://golang.org/dl/go1.20.5.linux-amd64.tar.gz
+正在连接 golang.org (golang.org)|142.250.196.209|:443... 失败：连接超时。
+重试中。
+
+--2024-12-18 15:01:10--  (尝试次数： 6)  https://golang.org/dl/go1.20.5.linux-amd64.tar.gz
+正在连接 golang.org (golang.org)|142.250.196.209|:443... 失败：连接超时。
+重试中。
+
+--2024-12-18 15:03:30--  (尝试次数： 7)  https://golang.org/dl/go1.20.5.linux-amd64.tar.gz
+正在连接 golang.org (golang.org)|142.250.196.209|:443... 失败：连接超时。
+重试中。
+
+--2024-12-18 15:05:50--  (尝试次数： 8)  https://golang.org/dl/go1.20.5.linux-amd64.tar.gz
+正在连接 golang.org (golang.org)|142.250.196.209|:443... 失败：连接超时。
+重试中。
+
+--2024-12-18 15:08:15--  (尝试次数： 9)  https://golang.org/dl/go1.20.5.linux-amd64.tar.gz
+正在连接 golang.org (golang.org)|142.250.196.209|:443... 失败：连接超时。
+重试中。
+
+--2024-12-18 15:10:39--  (尝试次数：10)  https://golang.org/dl/go1.20.5.linux-amd64.tar.gz
+正在连接 golang.org (golang.org)|142.250.196.209|:443... 失败：连接超时。
+重试中。
+
+--2024-12-18 15:13:03--  (尝试次数：11)  https://golang.org/dl/go1.20.5.linux-amd64.tar.gz
+正在连接 golang.org (golang.org)|142.250.196.209|:443... 

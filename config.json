@@ -1,0 +1,7 @@
+{
+    "broker": "tcp://localhost:1883",
+    "clientID": "go_mqtt_client",
+    "publishTopic": "test/publish",
+    "subscribeTopic": "test/topic",
+    "publishInterval": 5
+}
