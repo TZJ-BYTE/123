@@ -17,7 +17,7 @@ func main() {
 	// 使用上下文
 	ctx := context.Background()
 	defer rdb.Close()
-	if err := rdb.HSet(ctx, "type", "dt7", "65432").Err(); err != nil {
+	if err := rdb.HSet(ctx, "type", "dt7", "挖到").Err(); err != nil {
 		fmt.Printf("Error setting dt7: %v\n", err)
 		return
 	}
